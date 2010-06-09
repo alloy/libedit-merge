@@ -1,0 +1,9 @@
+* libedit-13-osx-10.6.3.tar.gz is the version that Apple ships with 10.6.3:
+
+    http://www.opensource.apple.com/source/libedit/libedit-13/
+
+* fetch NetBSD libedit sources (authoritative source):
+
+    $> export CVS_RSH="ssh"
+    $> export CVSROOT="anoncvs@anoncvs.NetBSD.org:/cvsroot"
+    $> cvs checkout -P src/lib/libedit
