@@ -125,6 +125,10 @@
 		4C615A12105061E200BF0A10 /* help.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6159A3104F203600BF0A10 /* help.h */; };
 		4C615A13105061E200BF0A10 /* vi.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6159A4104F203600BF0A10 /* vi.h */; };
 		4C615A14105061E200BF0A10 /* fcns.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6159B7104F20F500BF0A10 /* fcns.h */; };
+		51342EF011C02A64001FA0A7 /* chartype.c in Sources */ = {isa = PBXBuildFile; fileRef = 51967AA711BFF3FB009F2EE4 /* chartype.c */; };
+		51342EF111C02A64001FA0A7 /* chartype.h in Sources */ = {isa = PBXBuildFile; fileRef = 51967AA811BFF3FB009F2EE4 /* chartype.h */; };
+		51342EF211C02A73001FA0A7 /* chartype.c in Sources */ = {isa = PBXBuildFile; fileRef = 51967AA711BFF3FB009F2EE4 /* chartype.c */; };
+		51342EF311C02A73001FA0A7 /* chartype.h in Sources */ = {isa = PBXBuildFile; fileRef = 51967AA811BFF3FB009F2EE4 /* chartype.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -508,6 +512,8 @@
 				4C6159D41050615B00BF0A10 /* chared.c in Sources */,
 				4C6159D51050615B00BF0A10 /* common.c in Sources */,
 				4C6159D61050615B00BF0A10 /* el.c in Sources */,
+				51342EF211C02A73001FA0A7 /* chartype.c in Sources */,
+				51342EF311C02A73001FA0A7 /* chartype.h in Sources */,
 				4C6159D71050615B00BF0A10 /* emacs.c in Sources */,
 				4C6159D91050615B00BF0A10 /* filecomplete.c in Sources */,
 				4C6159DA1050615B00BF0A10 /* hist.c in Sources */,
@@ -534,6 +540,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51342EF011C02A64001FA0A7 /* chartype.c in Sources */,
+				51342EF111C02A64001FA0A7 /* chartype.h in Sources */,
 				4C615952104F157800BF0A10 /* chared.c in Sources */,
 				4C615954104F157800BF0A10 /* common.c in Sources */,
 				4C615957104F157800BF0A10 /* el.c in Sources */,
