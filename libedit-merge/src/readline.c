@@ -1679,7 +1679,7 @@ filename_completion_function(const char *name, int state)
 char *
 username_completion_function(const char *text, int state)
 {
-	struct passwd *pwd, pwres;
+	/* struct passwd *pwd, pwres;
 	char pwbuf[1024];
 
 	if (text[0] == '\0')
@@ -1699,7 +1699,8 @@ username_completion_function(const char *text, int state)
 		endpwent();
 		return NULL;
 	}
-	return strdup(pwd->pw_name);
+	return strdup(pwd->pw_name); */
+	return "";
 }
 
 
